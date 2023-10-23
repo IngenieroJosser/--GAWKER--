@@ -1,0 +1,21 @@
+#AboutUs {
+    position: absolute;
+}
+
+#AboutUs h2 {
+    position: absolute;
+    width: 20em;
+    margin-top: 36em;
+    margin-left: 22.9em;
+    padding-bottom: 2em;
+}
+
+#AboutUs p {
+    position: absolute;
+    margin-top: 40em;
+    width: 50em;
+    margin-left: 2.5em;
+    font-size: 1.46em;
+    padding-bottom: 2em;
+    font-family: var(--primary-font);
+}

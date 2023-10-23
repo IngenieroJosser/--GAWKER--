@@ -1,0 +1,68 @@
+@import '../config/variables.css';
+
+footer {
+    position: absolute;
+    margin-top: 153em;
+    margin-left: 3em;
+    padding-bottom: 7em;
+    display: flex;
+    gap: 1em;
+    padding-bottom: 3em;
+}
+
+footer .subFooter1 img {
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+}
+
+footer .subFooter1 p {
+    font-size: 12px;
+    font-family: var(--primary-font);
+    width: 20em;
+    position: absolute;
+    margin-top: -4em;
+    margin-left: .55em;
+}
+
+footer .items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    margin-left: 11em;
+    margin-top: 3em;
+}
+
+footer .items a {
+    font-size: 12px;
+    font-family: var(--primary-font);
+    transition: .7s all ease;
+    cursor: pointer;
+}
+
+footer .items a:hover {
+    text-decoration: underline;
+}
+
+footer .icons {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+footer span {
+    margin-top: 3em;
+    font-family: var(--primary-font);
+}
+
+footer .icons img {
+    object-fit: cover;
+    cursor: pointer;
+    width: 1.4em;
+    height: 1.4em;
+}
+
+footer .icons img:hover {
+    transform: scale(1.3);
+}

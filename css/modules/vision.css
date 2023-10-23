@@ -1,0 +1,14 @@
+#vision {
+    position: absolute;
+    margin-top: 134em;
+    margin-left: 12em;
+    display: flex;
+    gap: 4em;
+    padding-bottom: 7em;
+}
+
+#vision p {
+    width: 40em;
+    font-family: var(--primary-font);
+    padding-bottom: 4em;
+}

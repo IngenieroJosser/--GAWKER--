@@ -1,0 +1,121 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header img {
+        margin-left: 3em;
+    }
+
+    /* header nav {
+        margin-left: 3em;
+        font-size: 15px;
+        margin-top: 4em;
+    } */
+
+    header nav {
+        display: none;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation img {
+        margin-top: 3em;
+    }
+
+    #AboutUs h2 {
+        font-size: 23px;
+        margin-top: 42.4em;
+        margin-left: 9em;
+    }
+
+    #AboutUs p {
+        width: 30em;
+        margin-top: 46em;
+    }
+
+    .CATEGR {
+        margin-top: 66em;
+        margin-left: 13em;
+    }
+
+    #container {
+        display: flex;
+    }
+
+    #container .card__container {
+        display: flex;
+        gap: 6.7em;
+        margin-top: 15em;
+        width: 100%;
+    }
+
+    #container .card__article {
+        width: 20%;
+        margin-left: -3em;
+    }
+
+    #container .card__article img {
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+    }
+
+    #mision {
+        display: flex;
+        flex-direction: column;
+        margin-top: 127em;
+        margin-left: 2em;
+    }
+
+    #vision {
+        display: flex;
+        flex-direction: column;
+        margin-top: 147em;
+        margin-left: 2em;
+    }
+
+    #vision h2 {
+        margin-top: -5em;
+    }
+
+    footer {
+        margin-top: 162em;
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .subFooter1 img {
+        width: 21em;
+    }
+
+    footer .subFooter1 p {
+        font-size: 1.4em;
+        margin-top: .1em;
+        margin-left: 3em;
+        width: 14em;
+    }
+
+    footer .items {
+        display: grid;
+        grid-template-columns: 260px 260px;
+        margin-top: 6em;
+        margin-left: 5em;
+    }
+
+    footer .items a {
+        font-size: 1.3em;
+    }
+
+    footer .icons {
+        display: flex;
+        gap: 5em;
+        flex-direction: row;
+        margin-left: 5em;
+    }
+
+    span {
+        font-size: 1.9em;
+        margin-left: 2em;
+    }
+}

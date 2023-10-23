@@ -1,0 +1,33 @@
+.presentation {
+    margin-top: 20em;
+    position: absolute;
+    display: flex;
+}
+
+.presentation h1 {
+    font-size: 2em;
+    width: 18em;
+    margin-left: 2em;
+}
+
+.presentation img {
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
+    margin-left: 3em;
+    margin-top: -2.3em;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}

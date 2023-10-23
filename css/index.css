@@ -1,0 +1,13 @@
+@import './config/config.css';
+@import './config/variables.css';
+@import './modules/header.css';
+@import './modules/presentation.css';
+@import './modules/AboutUs.css';
+@import './modules/category.css';
+@import './modules/mision.css';
+@import './modules/vision.css';
+@import './modules/footer.css';
+
+/* RESPONSIVE */
+@import './responsive/mobile.css';
+@import './responsive/tablet.css';

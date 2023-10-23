@@ -1,0 +1,22 @@
+@import './variables.css';
+
+*, *::after, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:  var(--backgroundColor);
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: var(--colorText);
+    font-family: var(--primary-font);
+}
+
+h1, h2, p, span {
+    font-family: 'Dela Gothic One', cursive;
+    color: #FFF;
+}
